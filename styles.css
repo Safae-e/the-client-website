@@ -1,0 +1,107 @@
+
+
+/* body {
+    background-image: url(../the-client-website/assets/house-mouse.svg);
+    height: 100vh;
+}
+
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 155px;
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+    top: 160px;
+}
+
+p { 
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+.muis {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 150px;
+}
+ */
+
+body {
+    background-image: url(../the-client-website/assets/house-mouse.svg);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.center {
+    top: 10%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 50px;
+}
+
+.center:before,
+.center:after,
+.center div {
+    background: #fff;
+    content: "";
+    display: block;
+    height: 6px;
+    border-radius: 3px;
+    margin: 7px 0;
+    transition: 0.5s;
+}
+
+.center:hover:before {
+    transform: translateY(12px) rotate(135deg);
+}
+
+.center:hover:after {
+    transform: translateY(-12px) rotate(-135deg);
+}
+
+.center:hover div {
+    transform: scale(0);
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 155px;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+    top: 160px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+p { 
+    text-align: center;
+    position: relative;
+    top: 150px;
+    font-size: 20px; 
+    color: #FFFFFF;
+}
+
+.muis {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 150px;
+}
